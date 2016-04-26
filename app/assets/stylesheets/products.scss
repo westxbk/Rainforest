@@ -4,9 +4,9 @@
 
 
 .wraper {
-  width: 70%;
+  width: 65%;
   margin: auto;
-  margin-top: 4rem;
+  margin-top: 2rem;
 }
 
 .wraper .profile {
@@ -28,17 +28,58 @@
 }
 
 .reviews {
-  margin-left: 4.5rem;
+  border: 1px solid #E4E4E4;
+	padding: .7rem 1.25rem;
+	border-radius: .3rem;
+  margin-left: 2rem;
   float: left;
-  width: 50%;
+  width: 69.8%;
+  margin-bottom: 5rem;
 }
 
-.profile a {
-  color: black;
+.reviews h1 {
+  font-size: 2rem;
+  border-bottom: 1px solid #E4E4E4;
+  padding-bottom: 1rem;
+}
+
+
+.reviews p {
+  margin-left: 2rem;
+  padding: 1rem 0 1rem 0;
+}
+
+.reviews time {
+  font-size: .8rem;
+  color: light gray;
+}
+
+.reviews .divide {
+  // border: 1px solid black
+  border-bottom: 1px solid #E4E4E4;
+}
+
+
+.reviews form {
+  margin: 2rem 0 2rem 2rem;
+}
+
+.profile #button {
+  margin-top: 2rem;
+}
+
+.profile #button a {
+  color: #E4E4E4;
   text-decoration: none;
-  margin: 0 1rem 0 1rem;
-	border: 1px solid black;
+	border: 1px solid #E4E4E4;
 	padding: .7rem 1.25rem;
 	border-radius: .3rem;
 	outline: none;
+}
+
+
+.profile #button a:hover {
+  color: black;
+  text-decoration: none;
+	border: 1px solid black;
 }

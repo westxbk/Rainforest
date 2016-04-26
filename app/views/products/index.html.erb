@@ -15,12 +15,16 @@
   <tbody>
     <% @products.each do |product| %>
       <tr>
-        <td><%= image_tag product.photo_url(:medium).to_s %></td>
+        <!-- <td><%= image_tag product.photo_url(:medium).to_s %></td> -->
+        <td><%= link_to product_path(product) do %>
+         <%= image_tag product.photo.url(:medium) %>
+         <% end %>
+       </td>
         <td><%= product.name %></td>
         <td><%= product.description %></td>
-        <td><%= link_to 'Show', product %></td>
-        <td><%= link_to 'Edit Details', edit_product_path(product) %></td>
-        <td><%= link_to 'Remove Teaching Assistant', product, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        <td><%= link_to 'Show', product, class: 'link' %></td>
+        <td><%= link_to 'Edit Details', edit_product_path(product), class: 'link'  %></td>
+        <td><%= link_to 'Remove Teaching Assistant', product, method: :delete, data: { confirm: 'Are you sure?' }, class: 'link' %></td>
       </tr>
     <% end %>
   </tbody>

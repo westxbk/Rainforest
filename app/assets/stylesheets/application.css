@@ -13,3 +13,46 @@
  *= require_tree .
  *= require_self
  */
+
+
+
+body {
+	font-family: "Proxima Nova";
+	font-weight: 100;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: 100;
+}
+
+a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+.link{
+  text-decoration: none;
+}
+header {
+  width: 100%;
+  padding: 2rem 0;
+  border-bottom:  1px solid #E4E4E4;
+}
+
+nav {
+  width: 88%;
+  margin: auto;
+  margin-bottom: 1rem;
+}
+
+#logo a {
+  color: black;
+  font-size: 1.75rem;
+  float: left;
+  text-decoration: none;
+}
+
+#user_nav {
+  float: right;
+  text-decoration: none;
+}

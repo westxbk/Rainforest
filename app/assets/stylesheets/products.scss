@@ -1,3 +1,44 @@
 // Place all the styles related to the Products controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+.wraper {
+  width: 70%;
+  margin: auto;
+  margin-top: 4rem;
+}
+
+.wraper .profile {
+  // border: 1px solid black;
+  float: left;
+}
+
+.wraper img {
+  // margin-top: 2rem;
+  width: 300px auto;
+  border-radius: .3rem;
+  overflow: hidden;
+}
+
+.wraper .profile p {
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid #E4E4E4;
+}
+
+.reviews {
+  margin-left: 4.5rem;
+  float: left;
+  width: 50%;
+}
+
+.profile a {
+  color: black;
+  text-decoration: none;
+  margin: 0 1rem 0 1rem;
+	border: 1px solid black;
+	padding: .7rem 1.25rem;
+	border-radius: .3rem;
+	outline: none;
+}

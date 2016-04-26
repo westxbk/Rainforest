@@ -26,7 +26,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 a:visited {
-  color: black;
+  color: none;
   text-decoration: none;
 }
 
@@ -34,33 +34,112 @@ a:visited {
   text-decoration: none;
 }
 header {
+  background-color: #43c6e8;
   width: 100%;
   padding: 2rem 0;
-  border-bottom:  1px solid #E4E4E4;
+  /*border-bottom:  1px solid #E4E4E4;*/
 }
 
 nav {
-  width: 80%;
+  width: 70%;
   margin: auto;
   margin-bottom: 1rem;
 }
 
-#logo a {
+
+#user_nav a:hover {
   color: black;
+  text-decoration: none;
+	border: 1px solid black;
+}
+
+#user_nav {
+  color: #fff;
+  float: right;
+  text-decoration: none;
+}
+
+#user_nav a {
+	color: white;
+  text-decoration: none;
+  margin: 0 1rem 0 1rem;
+	border: 1px solid #fff;
+	padding: .7rem 1.25rem;
+	border-radius: .3rem;
+	outline: none;
+	color: #fff;
+}
+
+#logo a {
+  color: #fff;
   font-size: 1.75rem;
   float: left;
   text-decoration: none;
 }
 
-#user_nav {
-  float: right;
+#logo a:hover {
+  color: black;
   text-decoration: none;
 }
 
-#title h1 {
+
+#title {
   text-align: center;
 }
 
-table {
-  text-align: center;
+#title h2 {
+  color: #black;
+  font-size: 1rem;
+  margin-bottom: 3rem
+}
+
+
+
+#post {
+		width: 80%
+		margin: auto;
+}
+#postpost {
+  /*border: 1px solid black;*/
+  display: inline-flex;
+	margin-left: 10rem;
+	/*align: center;*/
+	/*width: 80%*/
+}
+
+.poop {
+  background: #F8F9FA;
+	border: 1px solid #E4E4E4;
+	border-radius: 0.3rem;
+  padding-bottom: .3rem;
+	margin: 0 3rem 0 3rem;
+}
+
+
+#image {
+  width: 100%;
+  border-radius: .3rem .3rem 0 0;
+  overflow: hidden;
+  /*border-bottom: 1px solid #E4E4E4;*/
+}
+
+#description {
+  width: 100%;
+}
+
+#name {
+  /*border: 1px solid black;*/
+  /*display: flex;*/
+  margin-left: .5rem;
+  float: left;
+  text-decoration: none;
+  /*font-weight: 400;*/
+}
+#skills {
+  /*border: 1px solid black;*/
+  /*display: flex;*/
+  padding-top: .3rem;
+  font-size: .7rem;
+  float: right;
+  margin-right: .5rem;
 }

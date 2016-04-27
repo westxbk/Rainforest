@@ -95,16 +95,19 @@ nav {
 
 
 
-#post {
-		width: 80%
+/*#post {
+		width: 65%
 		margin: auto;
-}
+}*/
+
 #postpost {
   /*border: 1px solid black;*/
-  display: inline-flex;
-	margin-left: 10rem;
+  display: flex;
+	flex-wrap: wrap;
+	margin: auto;
+	/*margin-left: 10rem;*/
 	/*align: center;*/
-	/*width: 80%*/
+	width: 65%
 }
 
 .poop {
@@ -112,7 +115,8 @@ nav {
 	border: 1px solid #E4E4E4;
 	border-radius: 0.3rem;
   padding-bottom: .3rem;
-	margin: 0 3rem 0 3rem;
+	margin: auto;
+	margin-bottom: 2rem;
 }
 
 

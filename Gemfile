@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-
+gem 'activeadmin', github: 'activeadmin'
 
 gem 'devise'
 gem 'carrierwave'

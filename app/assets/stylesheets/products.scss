@@ -7,6 +7,7 @@
   width: 65%;
   margin: auto;
   margin-top: 2rem;
+
 }
 
 .wraper .profile {
@@ -38,6 +39,7 @@
 }
 
 .reviews h1 {
+  margin-top: 2rem;
   font-size: 2rem;
   border-bottom: 1px solid #E4E4E4;
   padding-bottom: 1rem;
@@ -69,9 +71,9 @@
 }
 
 .profile #button a {
-  color: #E4E4E4;
+  color: black;
   text-decoration: none;
-	border: 1px solid #E4E4E4;
+	border: 1px solid black;
 	padding: .7rem 1.25rem;
 	border-radius: .3rem;
 	outline: none;
@@ -79,7 +81,7 @@
 
 
 .profile #button a:hover {
-  color: black;
+  color: #E4E4E4;
   text-decoration: none;
-	border: 1px solid black;
+	border: 1px solid #E4E4E4;
 }

@@ -14,13 +14,16 @@
       <%= @product.description %>
     </p>
     <p>
-      <strong>Availabiliy:</strong>
-      asdfsdaf, asdfasdfsd
+      <strong>Availability:</strong>
+      <%= @product.availability %>
     </p>
+
+    <% if user_signed_in? %>
     <div id= "button">
-    <%= link_to 'Edit', edit_product_path(@product)%>
-    <%= link_to 'Remove', @product, method: :delete, data: { confirm: 'Are you sure?' }, class: 'link' %>
+    <a href="https://calendar.google.com/calendar/render?tab=wc&pli=1#main_7" target="_blank">Book</a>
     </div>
+    <% else %>
+   <% end %>
   </div>
 
 

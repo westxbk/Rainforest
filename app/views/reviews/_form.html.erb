@@ -12,6 +12,7 @@
   <% end %>
 
   <div class="field">
+    <% if user_signed_in? %>
   <%= f.label :comment, "New review" %>
   <br>
   <br>
@@ -29,7 +30,9 @@
 
   <div class="actions">
 
-<%= f.submit %>
+  <%= f.submit %>
+<% else %>
+<% end %>
 
 </div>
 

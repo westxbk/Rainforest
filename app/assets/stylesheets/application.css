@@ -36,7 +36,7 @@ a:visited {
 header {
   background-color: #43c6e8;
   width: 100%;
-  padding: 2rem 0;
+  padding: 1rem 0 2.7rem 0;
   /*border-bottom:  1px solid #E4E4E4;*/
 }
 
@@ -54,6 +54,8 @@ nav {
 }
 
 #user_nav {
+	margin-top: .5rem;
+	font-size: 1rem;
   color: #fff;
   float: right;
   text-decoration: none;
@@ -87,10 +89,16 @@ nav {
   text-align: center;
 }
 
+#title h1 {
+  color: #black;
+  /*font-size: 1rem;*/
+  margin-top: 2rem
+}
+
 #title h2 {
   color: #black;
   font-size: 1rem;
-  margin-bottom: 3rem
+  margin-bottom: 2rem
 }
 
 
@@ -146,4 +154,8 @@ nav {
   font-size: .7rem;
   float: right;
   margin-right: .5rem;
+}
+
+#name {
+	font-size: 1rem;
 }
